@@ -4074,6 +4074,7 @@ fieldset {
 }
 
 .demo a {
+  margin-top: 5%;
   position: sticky;
   bottom: 20px;
   left: 50%;
@@ -4081,9 +4082,6 @@ fieldset {
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  color: #fff;
-  font: normal 400 20px/1 "Josefin Sans", sans-serif;
-  letter-spacing: 0.1em;
   text-decoration: none;
   transition: opacity 0.3s;
 }
@@ -4094,6 +4092,7 @@ fieldset {
 #section05 a {
   padding-top: 70px;
 }
+
 #section05 a span {
   position: absolute;
   top: 0;
@@ -4101,8 +4100,8 @@ fieldset {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 10px solid rgba(255, 207, 71, 1);
+  border-bottom: 10px solid rgba(255, 207, 71, 1);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb05 1.5s infinite;
