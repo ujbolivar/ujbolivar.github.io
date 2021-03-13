@@ -2380,7 +2380,7 @@ input[type="radio"]:focus + label:before {
 }
 
 .icon:before {
-  line-height: normal;
+  line-height: solid;
 }
 
 .icon.solid:before {
@@ -3364,7 +3364,7 @@ body.is-preload #header.alt > * {
   font-weight: bold;
   position: absolute;
   width: 100%;
-  max-width: max-content;
+  max-width: auto;
   padding: 1em;
   background-color: -moz-linear-gradient(
     45deg,
@@ -3471,7 +3471,7 @@ body.is-preload #header.alt > * {
   z-index: 10000;
   border-bottom: 1px solid rgba(221, 221, 221, 1);
   width: 100%;
-  max-width: max-content;
+  max-width: auto;
   padding: 1em;
 }
 
