@@ -371,6 +371,10 @@ h6 {
   font-size: 0.7em;
 }
 
+.bio {
+  margin-bottom: 4%;
+}
+
 @media screen and (max-width: 736px) {
   h1 {
     font-size: 2em;
